@@ -9,4 +9,12 @@
  .btn-product{
     @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 px-1 py-2 text-sm sm:py-2 sm:px-3 rounded text-white bg-secondary
  }
+
+ .card-benefit{
+   @apply py-2 px-1 sm:px-4 text-center rounded bg-white 
+ }
+
+ .paragraph-benefit{
+   @apply font-semibold text-primary 
+}
 }
