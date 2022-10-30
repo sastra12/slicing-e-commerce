@@ -779,6 +779,10 @@ video {
   height: 80%;
 }
 
+.h-1\/2{
+  height: 50%;
+}
+
 .max-h-max{
   max-height: -webkit-max-content;
   max-height: -moz-max-content;
@@ -1030,14 +1034,14 @@ video {
   padding-right: 1.25rem;
 }
 
-.py-1{
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
 .px-1{
   padding-left: 0.25rem;
   padding-right: 0.25rem;
+}
+
+.py-1{
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .pl-12{
@@ -1263,8 +1267,16 @@ video {
     margin-left: 3rem;
   }
 
+  .sm\:h-1\/2{
+    height: 50%;
+  }
+
   .sm\:w-1\/4{
     width: 25%;
+  }
+
+  .sm\:w-full{
+    width: 100%;
   }
 
   .sm\:grid-cols-4{
