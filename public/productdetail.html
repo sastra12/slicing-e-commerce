@@ -109,38 +109,135 @@
     </div>
     <!-- End Navbar -->
 
-    <div class="container bg-white">
-        <div class="grid grid-cols-1 mt-10 sm:grid-cols-2 sm:gap-x-7">
-            <!-- Image -->
-            <div class="p-3">
-                <img src="./img/product1.png" alt="" class="sm:w-full sm:h-1/2">
-                <div class="grid grid-cols-3 gap-2 mt-2">
-                    <img src="./img/product2.png" alt="" class="">
-                    <img src="./img/product3.png" alt="">
-                    <img src="./img/product1.png" alt="">
+    <!-- Detail Product -->
+    <div class="container">
+        <div class="bg-white">
+            <div class="grid grid-cols-1 mt-10 sm:grid-cols-2 sm:gap-x-7">
+                <!-- Image -->
+                <div class="p-3">
+                    <img src="./img/product1.png" alt="" class="sm:w-full sm:h-1/2">
+                    <div class="grid grid-cols-3 gap-2 mt-2">
+                        <img src="./img/product2.png" alt="" class="">
+                        <img src="./img/product3.png" alt="">
+                        <img src="./img/product1.png" alt="">
+                    </div>
+                </div>
+
+                <!-- Description -->
+                <div class="mt-3">
+                    <span class="text-sm text-primary font-semibold opacity-60">Minimalist Design</span>
+                    <p class="text-primary font-semibold text-[16px] my-1 lg:text-xl">Product Name</p>
+                    <span class="text-primary opacity-60 font-semibold">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing
+                        elit. Quam
+                        possimus quisquam animi, commodi,
+                        nihil voluptate nostrum neque architecto illo officiis doloremque et corrupti cupiditate
+                        voluptatibus error illum. Commodi expedita animi nulla aspernatur. Id asperiores blanditiis,
+                        omnis
+                        repudiandae iste inventore cum, quam sint molestiae accusamus voluptates ex tempora illum sit
+                        perspiciatis. Nostrum dolor tenetur amet, illo natus magni veniam quia sit nihil dolores.
+                        Commodi
+                        ratione distinctio harum voluptatum velit facilis voluptas animi non laudantium, id dolorem
+                        atque
+                        perferendis enim ducimus? </span>
+                    <p class="font-bold text-lg text-secondary">$495.00</p>
+                    <a href="productdetail.html"><button
+                            class="sm:px-3 sm:py-3 px-2 py-2 bg-secondary text-sm rounded mt-1 text-white">Add To
+                            Cart</button></a>
                 </div>
             </div>
+        </div>
 
-            <!-- Description -->
-            <div class="mt-3">
-                <span class="text-sm text-primary font-semibold opacity-60">Minimalist Design</span>
-                <p class="text-primary font-semibold text-[16px] my-1 lg:text-xl">Product Name</p>
-                <span class="text-primary opacity-60 font-semibold">Lorem ipsum dolor sit, amet consectetur adipisicing
-                    elit. Quam
-                    possimus quisquam animi, commodi,
-                    nihil voluptate nostrum neque architecto illo officiis doloremque et corrupti cupiditate
-                    voluptatibus error illum. Commodi expedita animi nulla aspernatur. Id asperiores blanditiis, omnis
-                    repudiandae iste inventore cum, quam sint molestiae accusamus voluptates ex tempora illum sit
-                    perspiciatis. Nostrum dolor tenetur amet, illo natus magni veniam quia sit nihil dolores. Commodi
-                    ratione distinctio harum voluptatum velit facilis voluptas animi non laudantium, id dolorem atque
-                    perferendis enim ducimus? </span>
-                <p class="font-bold text-lg text-secondary">$495.00</p>
+    </div>
+    <!-- End Detail Product -->
+
+    <!-- Related Product -->
+    <div class="container mt-5">
+        <h1 class="text-xl font-medium text-primary">Related Product</h1>
+        <div class="grid grid-cols-2 gap-2 md:grid-cols-3 lg:grid-cols-4 mt-4">
+            <div class="group mb-4">
+                <div class="relative group-hover:bg-white group-hover:opacity-80">
+                    <img src="./img/product1.png" alt="" class="">
+                    <div class="btn-product hidden group-hover:block">
+                        <a class="cursor-pointer">Add To Cart</a>
+                    </div>
+                </div>
+                <p class="text-[#183B56] font-bold text-[16px] my-1 px-2 lg:text-xl">Minimalist Style</p>
+                <div class="flex justify-between px-2">
+                    <p class="text-[#183B56] opacity-75 text-sm lg:text-lg">$25.7 </p>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-4 h-4 lg:h-6 lg:w-6 text-[#1565D8]">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                    </svg>
+                </div>
                 <a href="productdetail.html"><button
-                        class="sm:px-3 sm:py-3 px-2 py-2 bg-secondary text-sm rounded mt-1 text-white">Add To
-                        Cart</button></a>
+                        class="sm:px-2 sm:py-2 px-1 py-1 bg-secondary text-sm rounded mt-1 text-white">Product
+                        Detail</button></a>
+            </div>
+            <div class="group">
+                <div class="relative group-hover:bg-white group-hover:opacity-80">
+                    <img src="./img/product2.png" alt="" class="our-product">
+                    <div class="btn-product hidden group-hover:block">
+                        <a class="cursor-pointer">Add To Cart</a>
+                    </div>
+                </div>
+                <p class="text-[#183B56] font-bold text-[16px] my-1 px-2 lg:text-xl">Minimalist Style</p>
+                <div class="flex justify-between px-2">
+                    <p class="text-[#183B56] opacity-75 text-sm lg:text-lg">$25.7 </p>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-4 h-4 lg:h-6 lg:w-6 text-[#1565D8]">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                    </svg>
+                </div>
+                <a href="productdetail.html"><button
+                        class="sm:px-2 sm:py-2 px-1 py-1 bg-secondary text-sm rounded mt-1 text-white">Product
+                        Detail</button></a>
+            </div>
+            <div class="group">
+                <div class="relative group-hover:bg-white group-hover:opacity-80">
+                    <img src="./img/product3.png" alt="" class="our-product">
+                    <div class="btn-product hidden group-hover:block">
+                        <a class="cursor-pointer">Add To Cart</a>
+                    </div>
+                </div>
+                <p class="text-[#183B56] font-bold text-[16px] my-1 px-2 lg:text-xl">Minimalist Style</p>
+                <div class="flex justify-between px-2">
+                    <p class="text-[#183B56] opacity-75 text-sm lg:text-lg">$25.7 </p>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-4 h-4 lg:h-6 lg:w-6 text-[#1565D8]">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                    </svg>
+                </div>
+                <a href="productdetail.html"><button
+                        class="sm:px-2 sm:py-2 px-1 py-1 bg-secondary text-sm rounded mt-1 text-white">Product
+                        Detail</button></a>
+            </div>
+            <div class="group">
+                <div class="relative group-hover:bg-white group-hover:opacity-80">
+                    <img src="./img/product1.png" alt="" class="our-product">
+                    <div class="btn-product hidden group-hover:block">
+                        <a class="cursor-pointer">Add To Cart</a>
+                    </div>
+                </div>
+                <p class="text-[#183B56] font-bold text-[16px] my-1 px-2 lg:text-xl">Minimalist Style</p>
+                <div class="flex justify-between px-2">
+                    <p class="text-[#183B56] opacity-75 text-sm lg:text-lg">$25.7 </p>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-4 h-4 lg:h-6 lg:w-6 text-[#1565D8]">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                    </svg>
+                </div>
+                <a href="productdetail.html"><button
+                        class="sm:px-2 sm:py-2 px-1 py-1 bg-secondary text-sm rounded mt-1 text-white">Product
+                        Detail</button></a>
             </div>
         </div>
     </div>
+    <!-- End Related Product -->
 
     <!-- Benefit For User -->
     <div class="container my-10">

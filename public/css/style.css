@@ -779,14 +779,20 @@ video {
   height: 80%;
 }
 
-.h-1\/2{
-  height: 50%;
-}
-
 .max-h-max{
   max-height: -webkit-max-content;
   max-height: -moz-max-content;
   max-height: max-content;
+}
+
+.max-h-fit{
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+}
+
+.max-h-28{
+  max-height: 7rem;
 }
 
 .w-full{
