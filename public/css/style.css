@@ -747,6 +747,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
 .flex{
   display: flex;
 }
@@ -779,28 +783,8 @@ video {
   height: 80%;
 }
 
-.h-32{
-  height: 8rem;
-}
-
-.h-\[100px\]{
-  height: 100px;
-}
-
-.h-\[400px\]{
-  height: 400px;
-}
-
-.h-\[500px\]{
-  height: 500px;
-}
-
-.h-\[450px\]{
-  height: 450px;
-}
-
-.h-\[480px\]{
-  height: 480px;
+.h-screen{
+  height: 100vh;
 }
 
 .max-h-max{
@@ -823,6 +807,10 @@ video {
 
 .w-4{
   width: 1rem;
+}
+
+.w-96{
+  width: 24rem;
 }
 
 .max-w-xl{
@@ -984,6 +972,16 @@ video {
   background-color: rgb(21 101 216 / var(--tw-bg-opacity));
 }
 
+.bg-gray-50{
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
+.bg-gray-100{
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\.\.\/img\/Image\.png\'\)\]{
   background-image: url('../img/Image.png');
 }
@@ -1002,6 +1000,10 @@ video {
 
 .p-3{
   padding: 0.75rem;
+}
+
+.p-6{
+  padding: 1.5rem;
 }
 
 .py-4{
@@ -1182,6 +1184,16 @@ video {
   color: rgb(21 101 216 / var(--tw-text-opacity));
 }
 
+.text-gray-600{
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
+.text-gray-500{
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
 .opacity-30{
   opacity: 0.3;
 }
@@ -1216,6 +1228,11 @@ video {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.outline-none{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 .transition{
@@ -1287,18 +1304,12 @@ video {
     margin-left: 3rem;
   }
 
-  .sm\:h-1\/2{
-    height: 50%;
-  }
-
   .sm\:h-\[480px\]{
     height: 480px;
   }
 
-  .sm\:max-h-max{
-    max-height: -webkit-max-content;
-    max-height: -moz-max-content;
-    max-height: max-content;
+  .sm\:h-1\/2{
+    height: 50%;
   }
 
   .sm\:w-1\/4{
@@ -1307,10 +1318,6 @@ video {
 
   .sm\:w-full{
     width: 100%;
-  }
-
-  .sm\:w-1\/2{
-    width: 50%;
   }
 
   .sm\:grid-cols-4{
