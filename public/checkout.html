@@ -113,70 +113,67 @@
             <h1 class="text-xl font-medium text-primary">Checkout</h1>
             <hr class="my-4 border-t-2 border-blue-500">
             <div class="mt-2">
-                <div>
-                    <div class="grid grid-rows-1 mb-4 sm:w-1/2">
-                        <label for="first_name" class="mb-1 text-primary">Nama</label>
-                        <input type="text" id="first_name" class="px-3 py-1.5 focus:outline-none" autocomplete="off">
-                    </div>
 
-                    <div class="grid grid-rows-1 mb-4 sm:w-1/2">
-                        <label for="address" class="mb-1 text-primary">Alamat</label>
-                        <textarea name="" id="address" class=" px-3 py-1.5 bg-white focus:outline-none"
-                            rows="3"></textarea>
-                    </div>
-
-                    <div class="grid grid-rows-1 mb-4 sm:w-1/2">
-                        <label for="" class="mb-1 text-primary">Metode Pembayaran</label>
-                        <select class="form-select appearance-none
-                            block
-                            px-3
-                            py-1.5
-                            text-base
-                            font-normal
-                            text-gray-700
-                            bg-white bg-clip-padding bg-no-repeat
-                            border border-solid border-gray-300
-                            rounded
-                            transition
-                            ease-in-out
-                            m-0
-                            focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                            aria-label="Default select example">
-                            <option selected>Pilih Pembayaran</option>
-                            <option value="1">Transfer Bank Jatim</option>
-                            <option value="2">Indomaret</option>
-                            <option value="3">Alfamart</option>
-                            <option value="3">Transfer Bank BRI</option>
-                            <option value="3">COD</option>
-                        </select>
-                    </div>
-
-                    <div class="grid grid-rows-1 mb-4 sm:w-1/2">
-                        <label for="" class="mb-1 text-primary">Metode Pengiriman</label>
-                        <select class="form-select appearance-none
-                            block
-                            px-3
-                            py-1.5
-                            text-base
-                            font-normal
-                            text-gray-700
-                            bg-white bg-clip-padding bg-no-repeat
-                            border border-solid border-gray-300
-                            rounded
-                            transition
-                            ease-in-out
-                            m-0
-                            focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                            aria-label="Default select example">
-                            <option selected>Pilih Pembayaran</option>
-                            <option value="1">J&T Express</option>
-                            <option value="2">JNE</option>
-                            <option value="3">SiCepat Ekpres</option>
-                            <option value="3">TIKI</option>
-                        </select>
-                    </div>
+                <div class="grid grid-rows-1 mb-4 sm:w-1/2">
+                    <label for="first_name" class="mb-1 text-primary">Nama</label>
+                    <input type="text" id="first_name" class="px-3 py-1.5 focus:outline-none" autocomplete="off">
                 </div>
 
+                <div class="grid grid-rows-1 mb-4 sm:w-1/2">
+                    <label for="address" class="mb-1 text-primary">Alamat</label>
+                    <textarea name="" id="address" class=" px-3 py-1.5 bg-white focus:outline-none" rows="3"></textarea>
+                </div>
+
+                <div class="grid grid-rows-1 mb-4 sm:w-1/2">
+                    <label for="" class="mb-1 text-primary">Metode Pembayaran</label>
+                    <select class="form-select appearance-none
+                            block
+                            px-3
+                            py-1.5
+                            text-base
+                            font-normal
+                            text-gray-700
+                            bg-white bg-clip-padding bg-no-repeat
+                            border border-solid border-gray-300
+                            rounded
+                            transition
+                            ease-in-out
+                            m-0
+                            focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                        aria-label="Default select example">
+                        <option selected>Pilih Pembayaran</option>
+                        <option value="1">Transfer Bank Jatim</option>
+                        <option value="2">Indomaret</option>
+                        <option value="3">Alfamart</option>
+                        <option value="3">Transfer Bank BRI</option>
+                        <option value="3">COD</option>
+                    </select>
+                </div>
+
+                <div class="grid grid-rows-1 mb-4 sm:w-1/2">
+                    <label for="" class="mb-1 text-primary">Metode Pengiriman</label>
+                    <select class="form-select appearance-none
+                            block
+                            px-3
+                            py-1.5
+                            text-base
+                            font-normal
+                            text-gray-700
+                            bg-white bg-clip-padding bg-no-repeat
+                            border border-solid border-gray-300
+                            rounded
+                            transition
+                            ease-in-out
+                            m-0
+                            focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                        aria-label="Default select example">
+                        <option selected>Pilih Pembayaran</option>
+                        <option value="1">J&T Express</option>
+                        <option value="2">JNE</option>
+                        <option value="3">SiCepat Ekpres</option>
+                        <option value="3">TIKI</option>
+                    </select>
+                </div>
             </div>
             <hr class="my-4 border-t-2 border-blue-500">
             <h1 class="text-xl font-medium text-primary">Pesanan</h1>
@@ -195,7 +192,30 @@
                     </div>
                     <p class="text-primary font-semibold">Rp. 99.000</p>
                 </div>
+                <div class="flex justify-starts sm:w-1/2">
+                    <div class="sm:w-full sm:w-1/4 mt-3 py-5">
+                        <div class="my-2 flex justify-between">
+                            <p class="text-sm text-primary font-semibold">Cart Sub Total</p>
+                            <span class="text-sm text-primary font-semibold">$330.00</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <p class="text-sm text-primary font-semibold">Shipping</p>
+                            <span class="text-sm text-primary font-semibold">Free</span>
+                        </div>
+                        <div class="my-2 flex justify-between">
+                            <p class="text-sm text-primary font-semibold">You Save</p>
+                            <span class="text-sm text-primary font-semibold">$330.00</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <p class="text-sm text-primary font-semibold">You Pay</p>
+                            <span class="text-sm text-primary font-semibold">$310.00</span>
+                        </div>
+                        <a href="checkout.html"><button
+                                class="bg-secondary py-2 px-3 mt-3 w-full text-white hover:bg-white hover:text-secondary">CHECKOUT</button></a>
+                    </div>
+                </div>
             </div>
+
         </div>
     </div>
 
