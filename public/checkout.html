@@ -111,12 +111,90 @@
     <div class="container">
         <div class="my-10">
             <h1 class="text-xl font-medium text-primary">Checkout</h1>
+            <hr class="my-4 border-t-2 border-blue-500">
             <div class="mt-2">
-                <div class="grid grid-rows-1">
-                    <label for="address" class="mb-1 text-primary">Alamat</label>
-                    <textarea name="" id="address" class="w-1/2" rows="3"></textarea>
+                <div>
+                    <div class="grid grid-rows-1 mb-4 sm:w-1/2">
+                        <label for="first_name" class="mb-1 text-primary">Nama</label>
+                        <input type="text" id="first_name" class="px-3 py-1.5 focus:outline-none" autocomplete="off">
+                    </div>
+
+                    <div class="grid grid-rows-1 mb-4 sm:w-1/2">
+                        <label for="address" class="mb-1 text-primary">Alamat</label>
+                        <textarea name="" id="address" class=" px-3 py-1.5 bg-white focus:outline-none"
+                            rows="3"></textarea>
+                    </div>
+
+                    <div class="grid grid-rows-1 mb-4 sm:w-1/2">
+                        <label for="" class="mb-1 text-primary">Metode Pembayaran</label>
+                        <select class="form-select appearance-none
+                            block
+                            px-3
+                            py-1.5
+                            text-base
+                            font-normal
+                            text-gray-700
+                            bg-white bg-clip-padding bg-no-repeat
+                            border border-solid border-gray-300
+                            rounded
+                            transition
+                            ease-in-out
+                            m-0
+                            focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                            aria-label="Default select example">
+                            <option selected>Pilih Pembayaran</option>
+                            <option value="1">Transfer Bank Jatim</option>
+                            <option value="2">Indomaret</option>
+                            <option value="3">Alfamart</option>
+                            <option value="3">Transfer Bank BRI</option>
+                            <option value="3">COD</option>
+                        </select>
+                    </div>
+
+                    <div class="grid grid-rows-1 mb-4 sm:w-1/2">
+                        <label for="" class="mb-1 text-primary">Metode Pengiriman</label>
+                        <select class="form-select appearance-none
+                            block
+                            px-3
+                            py-1.5
+                            text-base
+                            font-normal
+                            text-gray-700
+                            bg-white bg-clip-padding bg-no-repeat
+                            border border-solid border-gray-300
+                            rounded
+                            transition
+                            ease-in-out
+                            m-0
+                            focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                            aria-label="Default select example">
+                            <option selected>Pilih Pembayaran</option>
+                            <option value="1">J&T Express</option>
+                            <option value="2">JNE</option>
+                            <option value="3">SiCepat Ekpres</option>
+                            <option value="3">TIKI</option>
+                        </select>
+                    </div>
                 </div>
 
+            </div>
+            <hr class="my-4 border-t-2 border-blue-500">
+            <h1 class="text-xl font-medium text-primary">Pesanan</h1>
+            <div class="mt-3">
+                <div class="bg-white py-3 sm:w-1/2 flex justify-between px-1 mb-2">
+                    <div class="flex gap-x-2">
+                        <img src="./img/asuz.png" alt="" class="w-14 h-10">
+                        <p class="text-primary font-light">Asus Zenbook Pro UX-430 US</p>
+                    </div>
+                    <p class="text-primary font-semibold">Rp. 99.000</p>
+                </div>
+                <div class="bg-white py-3 sm:w-1/2 flex justify-between px-1">
+                    <div class="flex gap-x-2">
+                        <img src="./img/asuz.png" alt="" class="w-14 h-10">
+                        <p class="text-primary font-light">Asus Zenbook Pro UX-430 US</p>
+                    </div>
+                    <p class="text-primary font-semibold">Rp. 99.000</p>
+                </div>
             </div>
         </div>
     </div>
